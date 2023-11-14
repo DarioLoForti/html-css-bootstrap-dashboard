@@ -55,12 +55,11 @@ header{
     overflow-y: auto;
 }
 
-.content-mb{
-    border: 1px;
-    height: 400px;
-}
 .bg{
     background-color: #1B72E8;
+}
+th>img{
+    width: 15px;
 }
 /* MEDIA QUERY */
 
