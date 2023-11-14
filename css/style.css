@@ -61,6 +61,13 @@ header{
 th>img{
     width: 15px;
 }
+
+/* OFFCANVAS */
+
+#offcanvasExample{
+    width: 50%;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 991px){

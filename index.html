@@ -27,7 +27,7 @@
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                             <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
-                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-2">
@@ -333,7 +333,58 @@
         </div>
         <div class="offcanvas-body">
           <form action="get">
-            <input type="text">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="text">Nome</label>
+                        <input class="form-control" type="text" name="Nome">
+                        <label for="email">Email</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</i></span>
+                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <label for="email">Indirizzo Email</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</i></span>
+                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label for="text">Cognome</label>
+                        <input class="form-control" type="text" name="Cognome">
+                        <label for="Password">Password</label>
+                        <input class="form-control" type="password" name="password" id="password">
+                        <label for="Password">Password</label>
+                        <input class="form-control" type="password" name="password" id="password">
+                    </div>
+                    <div class="col-12 my-3">
+                        <label for="text">Indirizzo</label>
+                        <input class="form-control" type="text" name="Indirizzo">                        
+                    </div>
+                    <div class="col-4">
+                        <label for="text">Città</label>
+                        <input class="form-control" type="text" name="Città">
+                    </div>
+                    <div class="col-4">
+                        <label for="select">Stato</label>
+                        <input class="form-control" type="" name="Stato" id="stato">
+                    </div>
+                    <div class="col-4">
+                        <label  for="text">CAP</label>
+                        <input class="form-control" type="text" name="CAP">
+                    </div>
+                    <div class="col-12 my-3">
+                        <label for="file">Foto</label>
+                        <input class="form-control" type="file" name="Foto" id="Foto">
+                    </div>
+                    <div class="col-12 my-3">
+                        <input class="mb-3" type="checkbox" name="Seleziona" id="Seleziona" > Seleziona per proseguire
+                        <br>
+                        <button type="button" class="btn btn-primary">Salva</button>
+                        <button type="button" class="btn btn-warning">Svuota</button>
+                    </div>
+                </div>
+            </div>
           </form>
         </div>
       </div>
