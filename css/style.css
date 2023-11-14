@@ -33,6 +33,16 @@ header{
     background-color: #051E34;
     position: fixed;
 }
+.sidebar-top{
+    position: absolute;
+    top:0;
+    left: 25px;
+}
+.sidebar-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+}
 
 /* MEDIA QUERY */
 
@@ -44,4 +54,9 @@ header{
         display: block;
         width: 100%;
     }
+    #sidebar{
+        width: 200px;
+    }
+    
+   
 }
