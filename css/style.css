@@ -44,6 +44,24 @@ header{
     left: 25px;
 }
 
+/* MAIN */
+
+.container-main{
+    width: calc(100% - 75px);
+    height: calc(100% - 75px);
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    overflow-y: auto;
+}
+
+.content-mb{
+    border: 1px;
+    height: 400px;
+}
+.bg{
+    background-color: #1B72E8;
+}
 /* MEDIA QUERY */
 
 @media screen and (min-width: 991px){
@@ -57,6 +75,8 @@ header{
     #sidebar{
         width: 200px;
     }
-    
+    .container-main{
+        width: calc(100% - 200px);
+    }
    
 }
