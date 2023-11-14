@@ -12,6 +12,56 @@
     <title>Boostrap-dashboard</title>
 </head>
 <body>
+    <!-- HEADER -->
+    <header>
+        <div class="container-fluid">
+            <div class="row my-2">
+                <div class="col-2">
+                    <div class="content-h">
+                        <img class="before" src="./img/mobile-logo.png" alt="logo-sm">
+                        <img class="after" src="./img/logo.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="content-h text-center mt-2">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="content-h mt-2 d-flex justify-content-end">
+                        <div class="after mt-2">
+                            <i class="fa-solid fa-list mx-2 "></i>
+                            <i class="fa-solid fa-circle-question mx-2"></i>
+                            <i class="fa-solid fa-ellipsis-vertical mx-2"></i>
+                        </div>
+                            <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bell fa-lg" style="color: #ff8000;"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+        <div id="sidebar"></div>
+        <div class="container-main"></div>
+    </main>
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
 </html>
