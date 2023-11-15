@@ -25,8 +25,8 @@
                 <div class="col-8">
                     <div class="content-h text-center mt-2">
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control search-bg" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
                     </div>
                 </div>
@@ -83,26 +83,31 @@
         <div class="container-main">
             <div class="container-fluid bg text-white pt-3">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 order-2 order-md-1">
                         <div class="content-mt">
                             <h2>Boolean</h2>
                             <span class="badge rounded-pill text-bg-secondary">Piano blaze</span>
                             <span class="badge rounded-pill text-bg-secondary">3 app</span>>>
-                            <span class="badge rounded-pill text-bg-secondary">+</span>
+                            <span class="badge rounded-pill text-bg-secondary d-inline-block d-lg-none">+</span>
+                            <span class="badge rounded-pill text-bg-secondary d-none d-lg-inline-block">Boolean mobile app</span>
+                            <span class="badge rounded-pill text-bg-secondary d-none d-lg-inline-block">Boolean web app</span>
+                            <span class="badge rounded-pill text-bg-secondary d-none d-lg-inline-block">Boolean blog app</span>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 order-3 order-md-2">
                         <div class="content-mt">
                             <p>Studenti online negli ultimi 30 minuti</p>
-                            <p>125</p>
+                            <p class="fs-3">125</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 order-md-3 ">
                         <div class="content-mt">
-                            <p>Nuovo studente</p>
-                            <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
-                                </a>
+                            <p class="d-inline-block me-3">Nuovo studente</p>
+                            <div class="off text-center d-inline-block">
+                              <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                  <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                                  </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,27 +118,27 @@
                         <div class="content-mb">
                             <div class="card mt-3">
                                 <div class="card-header">
-                                  Quote
+                                  Prossime classi
                                 </div>
                                 <div class="card-body">
-                                    <table class="table">
+                                    <table class="table table-hover">
                                         <thead>
                                           <tr>
                                             <th scope="col">Nome</th>
-                                            <th scope="col">Data inizio</th>
-                                            <th scope="col">ROI</th>
+                                            <th class="d-none d-md-table-cell" scope="col">Data inizio</th>
+                                            <th class="d-none d-md-table-cell" scope="col">ROI</th>
                                             <th scope="col">Stato</th>
                                             <th scope="col">Azioni</th>
                                           </tr>
                                         </thead>
                                         <tbody>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                  Classe75
-                                            </th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
@@ -143,12 +148,12 @@
                                             
                                           </tr>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 Classe 76
-                                            </th>
-                                            <td>16 Feb 2021</td>
-                                            <td>20%
+                                            </td>
+                                            <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%
                                             </td>
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
@@ -158,12 +163,12 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 Classe 77
-                                            </th>
-                                            <td>17 Feb 2021</td>
-                                            <td>20%</td>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-warning">process</span>
                                             </td>
                                             <td>
@@ -172,12 +177,12 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 Classe 78
-                                            </th>
-                                            <td>18 Feb 2021</td>
-                                            <td>20%</td>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
@@ -186,12 +191,12 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 Classe 79
-                                            </th>
-                                            <td>19 Feb 2021</td>
-                                            <td>20%</td>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-danger">failed</span>
                                             </td>
                                             <td>
@@ -200,12 +205,12 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 Classe 80
-                                            </th>
-                                            <td>20 Feb 2021</td>
-                                            <td>20%</td>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
@@ -214,12 +219,12 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 Classe 81
-                                            </th>
-                                            <td>21 Feb 2021</td>
-                                            <td>20%</td>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-danger">failed</span>
                                             </td>
                                             <td>
@@ -228,12 +233,12 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <th scope="row">
+                                            <td>
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 Classe 82
-                                            </th>
-                                            <td>22 Feb 2021</td>
-                                            <td>20%</td>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
@@ -292,16 +297,16 @@
                                 </div>
                                 <ul class="list-group">
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="Kickoff nuove classi">
-                                      <label class="form-check-label" for="Kickoff nuove classi">Kickoff nuove classi</label>
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="Kickoff-nuove-classi">
+                                      <label class="form-check-label" for="Kickoff-nuove-classi">Kickoff nuove classi</label>
                                     </li>
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="Lezione su Boostrap 5 in classe #75">
-                                      <label class="form-check-label" for="Lezione su Boostrap 5 in classe #75">Lezione su Boostrap 5 in classe #75</label>
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="Lezione-su-Boostrap-5-in-classe-#75">
+                                      <label class="form-check-label" for="Lezione-su-Boostrap-5-in-classe-#75">Lezione su Boostrap 5 in classe #75</label>
                                     </li>
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="Controllare username github studenti">
-                                      <label class="form-check-label" for="Controllare username github studenti">Controllare username github studenti</label>
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="Controllare-username-github-studenti">
+                                      <label class="form-check-label" for="Controllare-username-github-studenti">Controllare username github studenti</label>
                                     </li>
                                   </ul>
                               </div>
@@ -337,25 +342,25 @@
                 <div class="row">
                     <div class="col-6">
                         <label for="text">Nome</label>
-                        <input class="form-control" type="text" name="Nome">
-                        <label for="email">Email</label>
+                        <input class="form-control" type="text" name="Nome" id="text">
+                        <label for="basic-addon1">Email</label>
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">@</i></span>
-                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="basic-addon1" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
-                        <label for="email">Indirizzo Email</label>
+                        <label for="basic-addon2">Indirizzo Email</label>
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">@</i></span>
-                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text" >@</span>
+                            <input type="text" class="form-control" id="basic-addon2" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
                     </div>
                     <div class="col-6">
                         <label for="text">Cognome</label>
                         <input class="form-control" type="text" name="Cognome">
-                        <label for="Password">Password</label>
+                        <label for="password">Password</label>
                         <input class="form-control" type="password" name="password" id="password">
-                        <label for="Password">Password</label>
-                        <input class="form-control" type="password" name="password" id="password">
+                        <label for="password1">Password</label>
+                        <input class="form-control" type="password" name="password" id="password1">
                     </div>
                     <div class="col-12 my-3">
                         <label for="text">Indirizzo</label>
@@ -367,7 +372,15 @@
                     </div>
                     <div class="col-4">
                         <label for="select">Stato</label>
-                        <input class="form-control" type="" name="Stato" id="stato">
+                        <select class="form-select" id="select" aria-label="Default select example">
+                          <option selected>Stato</option>
+                          <option value="1">Francia</option>
+                          <option value="2">Germania</option>
+                          <option value="3">Italia</option>
+                          <option value="3">Paesi Bassi</option>
+                          <option value="3">Portogallo</option>
+                          <option value="3">Spagna</option>
+                        </select>
                     </div>
                     <div class="col-4">
                         <label  for="text">CAP</label>
@@ -375,7 +388,7 @@
                     </div>
                     <div class="col-12 my-3">
                         <label for="file">Foto</label>
-                        <input class="form-control" type="file" name="Foto" id="Foto">
+                        <input class="form-control" type="file" name="Foto" id="file">
                     </div>
                     <div class="col-12 my-3">
                         <input class="mb-3" type="checkbox" name="Seleziona" id="Seleziona" > Seleziona per proseguire
