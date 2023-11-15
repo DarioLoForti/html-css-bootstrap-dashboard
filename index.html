@@ -60,23 +60,23 @@
     <main>
         <div id="sidebar">
                 <div class="sidebar-top mt-3">
-                        <div class="icon my-3 d-flex">
-                            <i class="fa-solid fa-house" style="color: #ffffff;"></i>
-                            <span class="after ms-3 text-white ">Home</span>
+                  <div class="icon my-3 d-flex">
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                          <a class="text-decoration-none" href="#"><span class="after ms-3 text-white ">Home</span></a>                            
                         </div>
                         <div class="icon my-3 d-flex">
                             <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
-                            <span class="after ms-4 text-white">Stats</span>
+                            <a class="text-decoration-none" href="#"><span class="after ms-3 text-white ">Stats</span></a>                                                    
                         </div>
                         <div class="icon my-3 d-flex">
                             <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
-                            <span class="after ms-3 text-white">Signal</span>
+                            <a class="text-decoration-none" href="#"><span class="after ms-3 text-white ">Signal</span></a>                            
                         </div>
                 </div>
                 <div class="sidebar-bottom">
                         <div class="icon-b mb-3 d-flex">
                             <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
-                            <span class="after ms-3 text-white">Admin</span>
+                            <a class="text-decoration-none" href="#"><span class="after ms-3 text-white ">Admin</span></a>                
                         </div>
                     </div>
         </div>
@@ -84,7 +84,7 @@
             <div class="container-fluid bg text-white pt-3">
                 <div class="row">
                     <div class="col-12 col-md-4 order-2 order-md-1">
-                        <div class="content-mt">
+                        <div class="content-mt mb-3">
                             <h2>Boolean</h2>
                             <span class="badge rounded-pill text-bg-secondary">Piano blaze</span>
                             <span class="badge rounded-pill text-bg-secondary">3 app</span>>>
@@ -95,13 +95,13 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-4 order-3 order-md-2">
-                        <div class="content-mt">
+                        <div class="content-mt text-lg-end">
                             <p>Studenti online negli ultimi 30 minuti</p>
-                            <p class="fs-3">125</p>
+                            <p class="fs-3 text-lg-center">125</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 order-md-3 ">
-                        <div class="content-mt">
+                        <div class="content-mt text-lg-center">
                             <p class="d-inline-block me-3">Nuovo studente</p>
                             <div class="off text-center d-inline-block">
                               <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -118,7 +118,9 @@
                         <div class="content-mb">
                             <div class="card mt-3">
                                 <div class="card-header">
-                                  Prossime classi
+                                  <p class="fs-3 fw-bold">
+                                    Prossime classi
+                                  </p>                                  
                                 </div>
                                 <div class="card-body">
                                     <table class="table table-hover">
@@ -142,8 +144,11 @@
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>                                                
                                             </td>
                                             
                                           </tr>
@@ -158,8 +163,11 @@
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
                                           <tr>
@@ -172,8 +180,11 @@
                                             <td><span class="badge text-bg-warning">process</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
                                           <tr>
@@ -186,8 +197,11 @@
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
                                           <tr>
@@ -200,8 +214,11 @@
                                             <td><span class="badge text-bg-danger">failed</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
                                           <tr>
@@ -214,8 +231,11 @@
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
                                           <tr>
@@ -228,8 +248,11 @@
                                             <td><span class="badge text-bg-danger">failed</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
                                           <tr>
@@ -242,17 +265,22 @@
                                             <td><span class="badge text-bg-success">Done</span>
                                             </td>
                                             <td>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
                                                 <i class="fa-solid fa-pen"></i>
-                                                <i class="fa-solid fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-outline-light text-black border border-2 px-2 p-1">
+                                                <i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
                                         </tbody>
                                       </table>
                                 </div>
                               </div>
-                              <div class="card mt-3">
+                              <div class="card my-3">
                                 <div class="card-header">
-                                  F.A.Q.
+                                  <p class="fs-3 fw-bold">
+                                    F.A.Q.
+                                  </p>                                  
                                 </div>
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
@@ -293,7 +321,9 @@
                         <div class="content-mb mt-3">
                             <div class="card">
                                 <div class="card-header">
-                                  Todo
+                                  <p class="fs-3 fw-bold">
+                                    Todo
+                                  </p>                                   
                                 </div>
                                 <ul class="list-group">
                                     <li class="list-group-item">
@@ -319,8 +349,8 @@
                                   <ul class="list-group list-group-flush list-unstyled">
                                     <li class="list-group-item"> Gennaio: 1200</li>
                                     <li class="list-group-item"> Febbraio: 800</li>
-                                    <li class="list-group-item"> Marzo: 1500</li>
-                                    <li><a  href="#">Visualizza report approfondito</a></li>
+                                    <li class="list-group-item mb-3"> Marzo: 1500</li>
+                                    <li><a href="#">Visualizza report approfondito</a></li>
                                   </ul>
                                 </div>
                               </div>
